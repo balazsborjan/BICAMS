@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Patient" representedClassName="Patient" syncable="YES" codeGenerationType="class">
+        <attribute name="birthDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sexType" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="taj" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="results" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Result" inverseName="patient" inverseEntity="Result" syncable="YES"/>
+        <relationship name="testCases" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TestCase" inverseName="testOwner" inverseEntity="TestCase" syncable="YES"/>
+    </entity>
+    <entity name="Result" representedClassName="Result" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="normative" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="personal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="patient" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Patient" inverseName="results" inverseEntity="Patient" syncable="YES"/>
+    </entity>
+    <entity name="TestCase" representedClassName="TestCase" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="solutionImageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="taskImageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="testPoints" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="testOwner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Patient" inverseName="testCases" inverseEntity="Patient" syncable="YES"/>
+    </entity>
+    <entity name="Word" representedClassName="Word" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Patient" positionX="-344" positionY="-63" width="128" height="163"/>
+        <element name="Result" positionX="-173" positionY="117" width="128" height="118"/>
+        <element name="Word" positionX="-542" positionY="-63" width="128" height="75"/>
+        <element name="TestCase" positionX="-542" positionY="117" width="128" height="118"/>
+    </elements>
+</model>

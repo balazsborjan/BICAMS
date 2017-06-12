@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058FDA3F1EEEC43500D0D710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDA3E1EEEC43500D0D710 /* AppDelegate.swift */; };
+		058FDA471EEEC43500D0D710 /* BICAMS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 058FDA451EEEC43500D0D710 /* BICAMS.xcdatamodeld */; };
+		058FDA491EEEC43500D0D710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058FDA481EEEC43500D0D710 /* Assets.xcassets */; };
+		058FDA4C1EEEC43500D0D710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058FDA4A1EEEC43500D0D710 /* LaunchScreen.storyboard */; };
+		058FDA571EEEC43500D0D710 /* BICAMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDA561EEEC43500D0D710 /* BICAMSTests.swift */; };
+		058FDA621EEEC43500D0D710 /* BICAMSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDA611EEEC43500D0D710 /* BICAMSUITests.swift */; };
+		058FDADB1EEEC87A00D0D710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058FDADA1EEEC87A00D0D710 /* Main.storyboard */; };
+		058FDAFB1EEEEA7400D0D710 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDAFA1EEEEA7400D0D710 /* HomePageViewController.swift */; };
+		058FDB111EEEF15900D0D710 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDAFC1EEEF15900D0D710 /* ResultsViewController.swift */; };
+		058FDB121EEEF15900D0D710 /* GradientLayerGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDAFD1EEEF15900D0D710 /* GradientLayerGenerator.swift */; };
+		058FDB131EEEF15900D0D710 /* PatientValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDAFE1EEEF15900D0D710 /* PatientValidator.swift */; };
+		058FDB141EEEF15900D0D710 /* ResultCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDAFF1EEEF15900D0D710 /* ResultCalculator.swift */; };
+		058FDB151EEEF15900D0D710 /* ResultAllDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB001EEEF15900D0D710 /* ResultAllDataTableViewController.swift */; };
+		058FDB161EEEF15900D0D710 /* SelectPatientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB011EEEF15900D0D710 /* SelectPatientTableViewController.swift */; };
+		058FDB171EEEF15900D0D710 /* PatientPOJO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB021EEEF15900D0D710 /* PatientPOJO.swift */; };
+		058FDB181EEEF15900D0D710 /* ChartContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB031EEEF15900D0D710 /* ChartContainer.swift */; };
+		058FDB1A1EEEF15900D0D710 /* GlobalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB051EEEF15900D0D710 /* GlobalExtensions.swift */; };
+		058FDB1B1EEEF15900D0D710 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB061EEEF15900D0D710 /* Chart.swift */; };
+		058FDB1C1EEEF15900D0D710 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB071EEEF15900D0D710 /* MainPageViewController.swift */; };
+		058FDB1D1EEEF15900D0D710 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB081EEEF15900D0D710 /* ResultTableViewCell.swift */; };
+		058FDB1E1EEEF15900D0D710 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB091EEEF15900D0D710 /* GradientButton.swift */; };
+		058FDB1F1EEEF15900D0D710 /* ChartInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB0A1EEEF15900D0D710 /* ChartInfoTableViewCell.swift */; };
+		058FDB201EEEF15900D0D710 /* OperationTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB0B1EEEF15900D0D710 /* OperationTabBarController.swift */; };
+		058FDB211EEEF15900D0D710 /* OperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB0C1EEEF15900D0D710 /* OperationViewController.swift */; };
+		058FDB221EEEF15900D0D710 /* ScoreTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB0D1EEEF15900D0D710 /* ScoreTable.swift */; };
+		058FDB231EEEF15900D0D710 /* SelectPatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB0E1EEEF15900D0D710 /* SelectPatientTableViewCell.swift */; };
+		058FDB241EEEF15900D0D710 /* OperationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB0F1EEEF15900D0D710 /* OperationTableViewController.swift */; };
+		058FDB251EEEF15900D0D710 /* OperationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB101EEEF15900D0D710 /* OperationTableViewCell.swift */; };
+		058FDB271EEEF1C200D0D710 /* AddNewPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB261EEEF1C200D0D710 /* AddNewPatientViewController.swift */; };
+		058FDB291EEEF42600D0D710 /* PatientInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB281EEEF42600D0D710 /* PatientInfoTableViewCell.swift */; };
+		058FDB351EEEF45600D0D710 /* NewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB2A1EEEF45600D0D710 /* NewTestViewController.swift */; };
+		058FDB361EEEF45600D0D710 /* EvaluationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB2B1EEEF45600D0D710 /* EvaluationViewController.swift */; };
+		058FDB371EEEF45600D0D710 /* DrawpadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB2C1EEEF45600D0D710 /* DrawpadViewController.swift */; };
+		058FDB381EEEF45600D0D710 /* TaskOrSolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB2D1EEEF45600D0D710 /* TaskOrSolutionViewController.swift */; };
+		058FDB391EEEF45600D0D710 /* PatientDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB2E1EEEF45600D0D710 /* PatientDetailsViewController.swift */; };
+		058FDB3A1EEEF45600D0D710 /* DrawingGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB2F1EEEF45600D0D710 /* DrawingGridViewController.swift */; };
+		058FDB3B1EEEF45600D0D710 /* TaskImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB301EEEF45600D0D710 /* TaskImageViewController.swift */; };
+		058FDB3C1EEEF45600D0D710 /* PreviousTestsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB311EEEF45600D0D710 /* PreviousTestsListViewController.swift */; };
+		058FDB3D1EEEF45600D0D710 /* TestDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB321EEEF45600D0D710 /* TestDetailsViewController.swift */; };
+		058FDB3E1EEEF45600D0D710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB331EEEF45600D0D710 /* ViewController.swift */; };
+		058FDB3F1EEEF45600D0D710 /* ThumbnailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB341EEEF45600D0D710 /* ThumbnailCollectionViewCell.swift */; };
+		058FDB411EEEF47100D0D710 /* PatientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FDB401EEEF47100D0D710 /* PatientModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		058FDA531EEEC43500D0D710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058FDA331EEEC43400D0D710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058FDA3A1EEEC43500D0D710;
+			remoteInfo = BICAMS;
+		};
+		058FDA5E1EEEC43500D0D710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058FDA331EEEC43400D0D710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058FDA3A1EEEC43500D0D710;
+			remoteInfo = BICAMS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058FDA3B1EEEC43500D0D710 /* BICAMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BICAMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		058FDA3E1EEEC43500D0D710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		058FDA461EEEC43500D0D710 /* BICAMS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BICAMS.xcdatamodel; sourceTree = "<group>"; };
+		058FDA481EEEC43500D0D710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		058FDA4B1EEEC43500D0D710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		058FDA4D1EEEC43500D0D710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058FDA521EEEC43500D0D710 /* BICAMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BICAMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		058FDA561EEEC43500D0D710 /* BICAMSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BICAMSTests.swift; sourceTree = "<group>"; };
+		058FDA581EEEC43500D0D710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058FDA5D1EEEC43500D0D710 /* BICAMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BICAMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		058FDA611EEEC43500D0D710 /* BICAMSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BICAMSUITests.swift; sourceTree = "<group>"; };
+		058FDA631EEEC43500D0D710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058FDADA1EEEC87A00D0D710 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		058FDAFA1EEEEA7400D0D710 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		058FDAFC1EEEF15900D0D710 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultsViewController.swift; path = Words/ResultsViewController.swift; sourceTree = "<group>"; };
+		058FDAFD1EEEF15900D0D710 /* GradientLayerGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientLayerGenerator.swift; path = Words/GradientLayerGenerator.swift; sourceTree = "<group>"; };
+		058FDAFE1EEEF15900D0D710 /* PatientValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientValidator.swift; path = Words/PatientValidator.swift; sourceTree = "<group>"; };
+		058FDAFF1EEEF15900D0D710 /* ResultCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultCalculator.swift; path = Words/ResultCalculator.swift; sourceTree = "<group>"; };
+		058FDB001EEEF15900D0D710 /* ResultAllDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultAllDataTableViewController.swift; path = Words/ResultAllDataTableViewController.swift; sourceTree = "<group>"; };
+		058FDB011EEEF15900D0D710 /* SelectPatientTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectPatientTableViewController.swift; path = Words/SelectPatientTableViewController.swift; sourceTree = "<group>"; };
+		058FDB021EEEF15900D0D710 /* PatientPOJO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientPOJO.swift; path = Words/PatientPOJO.swift; sourceTree = "<group>"; };
+		058FDB031EEEF15900D0D710 /* ChartContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartContainer.swift; path = Words/ChartContainer.swift; sourceTree = "<group>"; };
+		058FDB051EEEF15900D0D710 /* GlobalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalExtensions.swift; path = Words/GlobalExtensions.swift; sourceTree = "<group>"; };
+		058FDB061EEEF15900D0D710 /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chart.swift; path = Words/Chart.swift; sourceTree = "<group>"; };
+		058FDB071EEEF15900D0D710 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPageViewController.swift; path = Words/MainPageViewController.swift; sourceTree = "<group>"; };
+		058FDB081EEEF15900D0D710 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultTableViewCell.swift; path = Words/ResultTableViewCell.swift; sourceTree = "<group>"; };
+		058FDB091EEEF15900D0D710 /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientButton.swift; path = Words/GradientButton.swift; sourceTree = "<group>"; };
+		058FDB0A1EEEF15900D0D710 /* ChartInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartInfoTableViewCell.swift; path = Words/ChartInfoTableViewCell.swift; sourceTree = "<group>"; };
+		058FDB0B1EEEF15900D0D710 /* OperationTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperationTabBarController.swift; path = Words/OperationTabBarController.swift; sourceTree = "<group>"; };
+		058FDB0C1EEEF15900D0D710 /* OperationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperationViewController.swift; path = Words/OperationViewController.swift; sourceTree = "<group>"; };
+		058FDB0D1EEEF15900D0D710 /* ScoreTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreTable.swift; path = Words/ScoreTable.swift; sourceTree = "<group>"; };
+		058FDB0E1EEEF15900D0D710 /* SelectPatientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectPatientTableViewCell.swift; path = Words/SelectPatientTableViewCell.swift; sourceTree = "<group>"; };
+		058FDB0F1EEEF15900D0D710 /* OperationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperationTableViewController.swift; path = Words/OperationTableViewController.swift; sourceTree = "<group>"; };
+		058FDB101EEEF15900D0D710 /* OperationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperationTableViewCell.swift; path = Words/OperationTableViewCell.swift; sourceTree = "<group>"; };
+		058FDB261EEEF1C200D0D710 /* AddNewPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNewPatientViewController.swift; path = Words/AddNewPatientViewController.swift; sourceTree = "<group>"; };
+		058FDB281EEEF42600D0D710 /* PatientInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientInfoTableViewCell.swift; path = Words/PatientInfoTableViewCell.swift; sourceTree = "<group>"; };
+		058FDB2A1EEEF45600D0D710 /* NewTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewTestViewController.swift; path = VisualModality/NewTestViewController.swift; sourceTree = "<group>"; };
+		058FDB2B1EEEF45600D0D710 /* EvaluationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EvaluationViewController.swift; path = VisualModality/EvaluationViewController.swift; sourceTree = "<group>"; };
+		058FDB2C1EEEF45600D0D710 /* DrawpadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawpadViewController.swift; path = VisualModality/DrawpadViewController.swift; sourceTree = "<group>"; };
+		058FDB2D1EEEF45600D0D710 /* TaskOrSolutionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskOrSolutionViewController.swift; path = VisualModality/TaskOrSolutionViewController.swift; sourceTree = "<group>"; };
+		058FDB2E1EEEF45600D0D710 /* PatientDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientDetailsViewController.swift; path = VisualModality/PatientDetailsViewController.swift; sourceTree = "<group>"; };
+		058FDB2F1EEEF45600D0D710 /* DrawingGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingGridViewController.swift; path = VisualModality/DrawingGridViewController.swift; sourceTree = "<group>"; };
+		058FDB301EEEF45600D0D710 /* TaskImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskImageViewController.swift; path = VisualModality/TaskImageViewController.swift; sourceTree = "<group>"; };
+		058FDB311EEEF45600D0D710 /* PreviousTestsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviousTestsListViewController.swift; path = VisualModality/PreviousTestsListViewController.swift; sourceTree = "<group>"; };
+		058FDB321EEEF45600D0D710 /* TestDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestDetailsViewController.swift; path = VisualModality/TestDetailsViewController.swift; sourceTree = "<group>"; };
+		058FDB331EEEF45600D0D710 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = VisualModality/ViewController.swift; sourceTree = "<group>"; };
+		058FDB341EEEF45600D0D710 /* ThumbnailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThumbnailCollectionViewCell.swift; path = VisualModality/ThumbnailCollectionViewCell.swift; sourceTree = "<group>"; };
+		058FDB401EEEF47100D0D710 /* PatientModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientModel.swift; path = VisualModality/PatientModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		058FDA381EEEC43500D0D710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FDA4F1EEEC43500D0D710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FDA5A1EEEC43500D0D710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058FDA321EEEC43400D0D710 = {
+			isa = PBXGroup;
+			children = (
+				058FDA3D1EEEC43500D0D710 /* BICAMS */,
+				058FDA551EEEC43500D0D710 /* BICAMSTests */,
+				058FDA601EEEC43500D0D710 /* BICAMSUITests */,
+				058FDA3C1EEEC43500D0D710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		058FDA3C1EEEC43500D0D710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				058FDA3B1EEEC43500D0D710 /* BICAMS.app */,
+				058FDA521EEEC43500D0D710 /* BICAMSTests.xctest */,
+				058FDA5D1EEEC43500D0D710 /* BICAMSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		058FDA3D1EEEC43500D0D710 /* BICAMS */ = {
+			isa = PBXGroup;
+			children = (
+				058FDADA1EEEC87A00D0D710 /* Main.storyboard */,
+				058FDAFA1EEEEA7400D0D710 /* HomePageViewController.swift */,
+				058FDA951EEEC5F500D0D710 /* Words */,
+				058FDA941EEEC5ED00D0D710 /* VisualModality */,
+				058FDA6F1EEEC4AA00D0D710 /* Supporting files */,
+			);
+			path = BICAMS;
+			sourceTree = "<group>";
+		};
+		058FDA551EEEC43500D0D710 /* BICAMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				058FDA561EEEC43500D0D710 /* BICAMSTests.swift */,
+				058FDA581EEEC43500D0D710 /* Info.plist */,
+			);
+			path = BICAMSTests;
+			sourceTree = "<group>";
+		};
+		058FDA601EEEC43500D0D710 /* BICAMSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				058FDA611EEEC43500D0D710 /* BICAMSUITests.swift */,
+				058FDA631EEEC43500D0D710 /* Info.plist */,
+			);
+			path = BICAMSUITests;
+			sourceTree = "<group>";
+		};
+		058FDA6F1EEEC4AA00D0D710 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				058FDA3E1EEEC43500D0D710 /* AppDelegate.swift */,
+				058FDA481EEEC43500D0D710 /* Assets.xcassets */,
+				058FDA4A1EEEC43500D0D710 /* LaunchScreen.storyboard */,
+				058FDA4D1EEEC43500D0D710 /* Info.plist */,
+				058FDA451EEEC43500D0D710 /* BICAMS.xcdatamodeld */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		058FDA941EEEC5ED00D0D710 /* VisualModality */ = {
+			isa = PBXGroup;
+			children = (
+				058FDAF71EEECE8700D0D710 /* Models */,
+				058FDAE01EEECE3600D0D710 /* Controllers */,
+			);
+			name = VisualModality;
+			sourceTree = "<group>";
+		};
+		058FDA951EEEC5F500D0D710 /* Words */ = {
+			isa = PBXGroup;
+			children = (
+				058FDACC1EEEC74C00D0D710 /* Global members */,
+				058FDAC91EEEC71600D0D710 /* Controllers */,
+				058FDACA1EEEC72900D0D710 /* Views */,
+				058FDAC81EEEC70800D0D710 /* Cells */,
+				058FDACB1EEEC74000D0D710 /* Validators */,
+				058FDACD1EEEC78700D0D710 /* CoreData models */,
+			);
+			name = Words;
+			sourceTree = "<group>";
+		};
+		058FDAC81EEEC70800D0D710 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				058FDB281EEEF42600D0D710 /* PatientInfoTableViewCell.swift */,
+				058FDB081EEEF15900D0D710 /* ResultTableViewCell.swift */,
+				058FDB0A1EEEF15900D0D710 /* ChartInfoTableViewCell.swift */,
+				058FDB101EEEF15900D0D710 /* OperationTableViewCell.swift */,
+				058FDB0E1EEEF15900D0D710 /* SelectPatientTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		058FDAC91EEEC71600D0D710 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				058FDAFC1EEEF15900D0D710 /* ResultsViewController.swift */,
+				058FDB001EEEF15900D0D710 /* ResultAllDataTableViewController.swift */,
+				058FDB011EEEF15900D0D710 /* SelectPatientTableViewController.swift */,
+				058FDB071EEEF15900D0D710 /* MainPageViewController.swift */,
+				058FDB0B1EEEF15900D0D710 /* OperationTabBarController.swift */,
+				058FDB0C1EEEF15900D0D710 /* OperationViewController.swift */,
+				058FDB0F1EEEF15900D0D710 /* OperationTableViewController.swift */,
+				058FDB261EEEF1C200D0D710 /* AddNewPatientViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		058FDACA1EEEC72900D0D710 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				058FDB031EEEF15900D0D710 /* ChartContainer.swift */,
+				058FDB061EEEF15900D0D710 /* Chart.swift */,
+				058FDB091EEEF15900D0D710 /* GradientButton.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		058FDACB1EEEC74000D0D710 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				058FDAFE1EEEF15900D0D710 /* PatientValidator.swift */,
+			);
+			name = Validators;
+			sourceTree = "<group>";
+		};
+		058FDACC1EEEC74C00D0D710 /* Global members */ = {
+			isa = PBXGroup;
+			children = (
+				058FDAFD1EEEF15900D0D710 /* GradientLayerGenerator.swift */,
+				058FDAFF1EEEF15900D0D710 /* ResultCalculator.swift */,
+				058FDB021EEEF15900D0D710 /* PatientPOJO.swift */,
+				058FDB051EEEF15900D0D710 /* GlobalExtensions.swift */,
+				058FDB0D1EEEF15900D0D710 /* ScoreTable.swift */,
+			);
+			name = "Global members";
+			sourceTree = "<group>";
+		};
+		058FDACD1EEEC78700D0D710 /* CoreData models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CoreData models";
+			sourceTree = "<group>";
+		};
+		058FDAE01EEECE3600D0D710 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				058FDB2A1EEEF45600D0D710 /* NewTestViewController.swift */,
+				058FDB2B1EEEF45600D0D710 /* EvaluationViewController.swift */,
+				058FDB2C1EEEF45600D0D710 /* DrawpadViewController.swift */,
+				058FDB2D1EEEF45600D0D710 /* TaskOrSolutionViewController.swift */,
+				058FDB2E1EEEF45600D0D710 /* PatientDetailsViewController.swift */,
+				058FDB2F1EEEF45600D0D710 /* DrawingGridViewController.swift */,
+				058FDB301EEEF45600D0D710 /* TaskImageViewController.swift */,
+				058FDB311EEEF45600D0D710 /* PreviousTestsListViewController.swift */,
+				058FDB321EEEF45600D0D710 /* TestDetailsViewController.swift */,
+				058FDB331EEEF45600D0D710 /* ViewController.swift */,
+				058FDB341EEEF45600D0D710 /* ThumbnailCollectionViewCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		058FDAF71EEECE8700D0D710 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				058FDB401EEEF47100D0D710 /* PatientModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		058FDA3A1EEEC43500D0D710 /* BICAMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058FDA661EEEC43500D0D710 /* Build configuration list for PBXNativeTarget "BICAMS" */;
+			buildPhases = (
+				058FDA371EEEC43500D0D710 /* Sources */,
+				058FDA381EEEC43500D0D710 /* Frameworks */,
+				058FDA391EEEC43500D0D710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BICAMS;
+			productName = BICAMS;
+			productReference = 058FDA3B1EEEC43500D0D710 /* BICAMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		058FDA511EEEC43500D0D710 /* BICAMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058FDA691EEEC43500D0D710 /* Build configuration list for PBXNativeTarget "BICAMSTests" */;
+			buildPhases = (
+				058FDA4E1EEEC43500D0D710 /* Sources */,
+				058FDA4F1EEEC43500D0D710 /* Frameworks */,
+				058FDA501EEEC43500D0D710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058FDA541EEEC43500D0D710 /* PBXTargetDependency */,
+			);
+			name = BICAMSTests;
+			productName = BICAMSTests;
+			productReference = 058FDA521EEEC43500D0D710 /* BICAMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		058FDA5C1EEEC43500D0D710 /* BICAMSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058FDA6C1EEEC43500D0D710 /* Build configuration list for PBXNativeTarget "BICAMSUITests" */;
+			buildPhases = (
+				058FDA591EEEC43500D0D710 /* Sources */,
+				058FDA5A1EEEC43500D0D710 /* Frameworks */,
+				058FDA5B1EEEC43500D0D710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058FDA5F1EEEC43500D0D710 /* PBXTargetDependency */,
+			);
+			name = BICAMSUITests;
+			productName = BICAMSUITests;
+			productReference = 058FDA5D1EEEC43500D0D710 /* BICAMSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		058FDA331EEEC43400D0D710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Balázs Bojrán";
+				TargetAttributes = {
+					058FDA3A1EEEC43500D0D710 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 672N4LBH7M;
+						ProvisioningStyle = Automatic;
+					};
+					058FDA511EEEC43500D0D710 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 672N4LBH7M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 058FDA3A1EEEC43500D0D710;
+					};
+					058FDA5C1EEEC43500D0D710 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 672N4LBH7M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 058FDA3A1EEEC43500D0D710;
+					};
+				};
+			};
+			buildConfigurationList = 058FDA361EEEC43400D0D710 /* Build configuration list for PBXProject "BICAMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 058FDA321EEEC43400D0D710;
+			productRefGroup = 058FDA3C1EEEC43500D0D710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				058FDA3A1EEEC43500D0D710 /* BICAMS */,
+				058FDA511EEEC43500D0D710 /* BICAMSTests */,
+				058FDA5C1EEEC43500D0D710 /* BICAMSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		058FDA391EEEC43500D0D710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FDADB1EEEC87A00D0D710 /* Main.storyboard in Resources */,
+				058FDA4C1EEEC43500D0D710 /* LaunchScreen.storyboard in Resources */,
+				058FDA491EEEC43500D0D710 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FDA501EEEC43500D0D710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FDA5B1EEEC43500D0D710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058FDA371EEEC43500D0D710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FDB221EEEF15900D0D710 /* ScoreTable.swift in Sources */,
+				058FDA3F1EEEC43500D0D710 /* AppDelegate.swift in Sources */,
+				058FDB171EEEF15900D0D710 /* PatientPOJO.swift in Sources */,
+				058FDB291EEEF42600D0D710 /* PatientInfoTableViewCell.swift in Sources */,
+				058FDB3F1EEEF45600D0D710 /* ThumbnailCollectionViewCell.swift in Sources */,
+				058FDB211EEEF15900D0D710 /* OperationViewController.swift in Sources */,
+				058FDB1C1EEEF15900D0D710 /* MainPageViewController.swift in Sources */,
+				058FDB271EEEF1C200D0D710 /* AddNewPatientViewController.swift in Sources */,
+				058FDB1B1EEEF15900D0D710 /* Chart.swift in Sources */,
+				058FDB1F1EEEF15900D0D710 /* ChartInfoTableViewCell.swift in Sources */,
+				058FDB181EEEF15900D0D710 /* ChartContainer.swift in Sources */,
+				058FDB351EEEF45600D0D710 /* NewTestViewController.swift in Sources */,
+				058FDB131EEEF15900D0D710 /* PatientValidator.swift in Sources */,
+				058FDB411EEEF47100D0D710 /* PatientModel.swift in Sources */,
+				058FDB231EEEF15900D0D710 /* SelectPatientTableViewCell.swift in Sources */,
+				058FDB121EEEF15900D0D710 /* GradientLayerGenerator.swift in Sources */,
+				058FDB151EEEF15900D0D710 /* ResultAllDataTableViewController.swift in Sources */,
+				058FDB241EEEF15900D0D710 /* OperationTableViewController.swift in Sources */,
+				058FDB1A1EEEF15900D0D710 /* GlobalExtensions.swift in Sources */,
+				058FDB201EEEF15900D0D710 /* OperationTabBarController.swift in Sources */,
+				058FDAFB1EEEEA7400D0D710 /* HomePageViewController.swift in Sources */,
+				058FDB361EEEF45600D0D710 /* EvaluationViewController.swift in Sources */,
+				058FDB251EEEF15900D0D710 /* OperationTableViewCell.swift in Sources */,
+				058FDB111EEEF15900D0D710 /* ResultsViewController.swift in Sources */,
+				058FDB3B1EEEF45600D0D710 /* TaskImageViewController.swift in Sources */,
+				058FDB3E1EEEF45600D0D710 /* ViewController.swift in Sources */,
+				058FDB381EEEF45600D0D710 /* TaskOrSolutionViewController.swift in Sources */,
+				058FDB161EEEF15900D0D710 /* SelectPatientTableViewController.swift in Sources */,
+				058FDB3A1EEEF45600D0D710 /* DrawingGridViewController.swift in Sources */,
+				058FDB3D1EEEF45600D0D710 /* TestDetailsViewController.swift in Sources */,
+				058FDB371EEEF45600D0D710 /* DrawpadViewController.swift in Sources */,
+				058FDB391EEEF45600D0D710 /* PatientDetailsViewController.swift in Sources */,
+				058FDB3C1EEEF45600D0D710 /* PreviousTestsListViewController.swift in Sources */,
+				058FDB141EEEF15900D0D710 /* ResultCalculator.swift in Sources */,
+				058FDA471EEEC43500D0D710 /* BICAMS.xcdatamodeld in Sources */,
+				058FDB1D1EEEF15900D0D710 /* ResultTableViewCell.swift in Sources */,
+				058FDB1E1EEEF15900D0D710 /* GradientButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FDA4E1EEEC43500D0D710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FDA571EEEC43500D0D710 /* BICAMSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FDA591EEEC43500D0D710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FDA621EEEC43500D0D710 /* BICAMSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		058FDA541EEEC43500D0D710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058FDA3A1EEEC43500D0D710 /* BICAMS */;
+			targetProxy = 058FDA531EEEC43500D0D710 /* PBXContainerItemProxy */;
+		};
+		058FDA5F1EEEC43500D0D710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058FDA3A1EEEC43500D0D710 /* BICAMS */;
+			targetProxy = 058FDA5E1EEEC43500D0D710 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		058FDA4A1EEEC43500D0D710 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058FDA4B1EEEC43500D0D710 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		058FDA641EEEC43500D0D710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		058FDA651EEEC43500D0D710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		058FDA671EEEC43500D0D710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 672N4LBH7M;
+				INFOPLIST_FILE = BICAMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.sed.healthteam.swiftcourse.BICAMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		058FDA681EEEC43500D0D710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 672N4LBH7M;
+				INFOPLIST_FILE = BICAMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.sed.healthteam.swiftcourse.BICAMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		058FDA6A1EEEC43500D0D710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 672N4LBH7M;
+				INFOPLIST_FILE = BICAMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.sed.healthteam.swiftcourse.BICAMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BICAMS.app/BICAMS";
+			};
+			name = Debug;
+		};
+		058FDA6B1EEEC43500D0D710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 672N4LBH7M;
+				INFOPLIST_FILE = BICAMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.sed.healthteam.swiftcourse.BICAMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BICAMS.app/BICAMS";
+			};
+			name = Release;
+		};
+		058FDA6D1EEEC43500D0D710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 672N4LBH7M;
+				INFOPLIST_FILE = BICAMSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.sed.healthteam.swiftcourse.BICAMSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BICAMS;
+			};
+			name = Debug;
+		};
+		058FDA6E1EEEC43500D0D710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 672N4LBH7M;
+				INFOPLIST_FILE = BICAMSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.sed.healthteam.swiftcourse.BICAMSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BICAMS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058FDA361EEEC43400D0D710 /* Build configuration list for PBXProject "BICAMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FDA641EEEC43500D0D710 /* Debug */,
+				058FDA651EEEC43500D0D710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058FDA661EEEC43500D0D710 /* Build configuration list for PBXNativeTarget "BICAMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FDA671EEEC43500D0D710 /* Debug */,
+				058FDA681EEEC43500D0D710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058FDA691EEEC43500D0D710 /* Build configuration list for PBXNativeTarget "BICAMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FDA6A1EEEC43500D0D710 /* Debug */,
+				058FDA6B1EEEC43500D0D710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058FDA6C1EEEC43500D0D710 /* Build configuration list for PBXNativeTarget "BICAMSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FDA6D1EEEC43500D0D710 /* Debug */,
+				058FDA6E1EEEC43500D0D710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		058FDA451EEEC43500D0D710 /* BICAMS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				058FDA461EEEC43500D0D710 /* BICAMS.xcdatamodel */,
+			);
+			currentVersion = 058FDA461EEEC43500D0D710 /* BICAMS.xcdatamodel */;
+			path = BICAMS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 058FDA331EEEC43400D0D710 /* Project object */;
+}
